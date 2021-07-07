@@ -1,0 +1,51 @@
+body{
+  margin:5em;
+}
+header ul{
+  border-bottom: thin solid black;
+}
+ul{  
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+main{
+  align-items: stretch;
+  padding-top: 2em;
+}
+
+article{
+  margin-right: 20%;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.premier{
+  font-style: oblique;
+  color: gray;
+}
+
+h1{
+  font-size: 5rem;
+  font-weight:bold;
+  border-bottom: thick solid black;
+}
+img{
+  width: 1em;
+}
+footer{
+  border-top: thick solid black;
+  padding-top: 1em;
+}
+footer > p{
+  margin:0;
+}
+
