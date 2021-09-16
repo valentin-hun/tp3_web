@@ -2,7 +2,8 @@ pages:
   stage: deploy
   script:
     - mkdir .public
-    - echo "/theoldfashion/ /theoldfashion/theOldFashion.html 301" > ./.public/_redirects
+    - echo "/theoldfashion/index.html /theoldfashion/theOldFashion.html 301" > ./.public/_redirects
+    - touch ./.public/index.html
     - cp -r * .public
     - mv .public public
   artifacts:
