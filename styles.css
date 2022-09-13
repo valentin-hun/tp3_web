@@ -1,9 +1,5 @@
 body{
-  margin:5em;
-}
-
-header ul{
-  border-bottom: thin solid black;
+  margin: 5em;
 }
 
 ul{  
@@ -16,7 +12,6 @@ li{
 }
 
 main{
-  align-items: stretch;
   padding-top: 2em;
 }
 
@@ -24,25 +19,16 @@ article{
   margin-right: 20%;
 }
 
-a{
-  font-weight: bold;
-}
-
-h1 > span{
-  font-style: oblique;
-  color: gray;
-}
-
-h1{
-  font-size: 5rem;
-  font-weight:bold;
-  border-bottom: thick solid black;
-}
-
 footer{
   padding-top: 1em;
 }
 
 footer > p{
-  margin:0;
+  margin: 0;
 }
+
+
+h1>span{
+  display: block;
+}
+
