@@ -2,8 +2,18 @@ body{
   margin: 5em;
 }
 
+nav a{
+  color: blue;
+}
+
+a{
+  text-decoration: None;
+  font-weight: bold;
+}
+
 ul{  
   padding: 0;
+  list-style-type: none;
 }
 
 li{
@@ -13,6 +23,8 @@ li{
 
 main{
   padding-top: 2em;
+  border-bottom-width:black;
+  border-top-width: black 
 }
 
 article{
@@ -30,5 +42,15 @@ footer > p{
 
 h1>span{
   display: block;
+  color:grey;
+  font-style:italic;
+  font-size: 200%;
 }
 
+h1{
+  color: black;
+}
+
+img{
+
+}
