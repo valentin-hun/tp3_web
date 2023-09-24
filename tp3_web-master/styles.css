@@ -1,0 +1,66 @@
+body{
+  margin: 5em;
+}
+
+nav > ul{
+  border-bottom: 1px solid;
+}
+
+nav a{
+  color: blue;
+}
+
+a{
+  text-decoration: None;
+  font-weight: bold;
+}
+
+ul{  
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+main{
+  padding-top: 2em;
+  border-bottom-width:black;
+  border-top-width: black 
+}
+
+article{
+  margin-right: 20%;
+}
+
+footer{
+  padding-top: 1em;
+  border-top: 4px solid;
+}
+
+footer > p{
+  margin: 0;
+}
+
+h1{
+  color: black;
+  font-size: 400%;
+  border-bottom: 4px solid;
+}
+
+span{
+  display: block;
+  color:grey;
+  font-style:italic;
+}
+
+footer img{
+  width: 15px;
+  height: 15px;
+}
+
+.teemo{
+  font-weight: bold;
+}
