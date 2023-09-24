@@ -2,6 +2,10 @@ body{
   margin: 5em;
 }
 
+nav > ul{
+  border-bottom: 1px solid;
+}
+
 nav a{
   color: blue;
 }
@@ -33,24 +37,30 @@ article{
 
 footer{
   padding-top: 1em;
+  border-top: 4px solid;
 }
 
 footer > p{
   margin: 0;
 }
 
+h1{
+  color: black;
+  font-size: 400%;
+  border-bottom: 4px solid;
+}
 
-h1>span{
+span{
   display: block;
   color:grey;
   font-style:italic;
-  font-size: 200%;
 }
 
-h1{
-  color: black;
+footer img{
+  width: 15px;
+  height: 15px;
 }
 
-img{
-
+.teemo{
+  font-weight: bold;
 }
